@@ -1,0 +1,43 @@
+{
+    "editor.fontFamily": "Menlo, Consolas, DejaVu Sans Mono, monospace",
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "explorer.openEditors.visible": 0,
+    "editor.rulers": [
+        79
+    ],
+    "files.exclude": {
+        "**/*.pyc": true,
+        "**/__pycache__/": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88",
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            79,
+            88
+        ]
+    },
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.tree.indent": 25,
+    "workbench.tree.renderIndentGuides": "always",
+    "python.workspaceSymbols.ctagsPath": "",
+    "python.workspaceSymbols.tagFilePath": "",
+    "search.location": "panel",
+    "window.menuBarVisibility": "toggle"
+}
