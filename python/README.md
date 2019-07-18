@@ -1,5 +1,9 @@
 # Python
 
+## Generators
+* https://rickardlindberg.me/writing/bitten-by-python-generators/
+
+
 ## Testing
 
 ### Auto run tests on file change
