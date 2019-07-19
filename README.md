@@ -1,6 +1,6 @@
 # Tips-Tricks-Configs
 
-Things which I want to have the same on all machines and I use often but cannot remember.
+Things which I want to have the same on all machines and I use often but cannot remember or find interesting (worth noting).
 
 1. [Python](#python)
     1. [Generators](#generators)
