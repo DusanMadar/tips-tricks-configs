@@ -28,7 +28,7 @@ find . -name "*.py" | entr python -m unittest discover
 
 ## Resources
 
-Also links to resources (tutorials, books, blog posts, repositories, ...).
+Links to resources (tutorials, books, blog posts, repositories, ...).
 
 ### SW Development
 
