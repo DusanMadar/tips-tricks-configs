@@ -2,17 +2,21 @@
 
 Things which I want to have the same on all machines and I use often but cannot remember.
 
-1. 
+1. [Python](#python)
+    1. [Generators](#generators)
+    2. [Testing](#testing)
+2. [Resources](#resources)
+    1. [SW Development](#sw-development)
 
 ## Python
 
-## Generators
+### Generators
 * https://rickardlindberg.me/writing/bitten-by-python-generators/
 
 
-## Testing
+### Testing
 
-### Auto run tests on file change
+#### Auto run tests on file change
 
 ```bash
 find . -name "*.py" | entr python -m unittest discover
