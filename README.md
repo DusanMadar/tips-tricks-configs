@@ -1,7 +1,7 @@
 # Tips-Tricks-Configs
-
 Things which I want to have the same on all machines and I use often but cannot remember or find interesting (worth noting).
 
+- [Git](#git)
 - [Python](#python)
   * [Async](#async)
   * [Debugging](#debugging)
@@ -11,6 +11,44 @@ Things which I want to have the same on all machines and I use often but cannot 
   * [Testing](#testing)
 - [Resources](#resources)
   * [SW Development](#sw-development)
+  
+  
+## Git
+* [Show the git branch with colours in Bash prompt](https://askubuntu.com/q/730754/355551)
+* [Temporarily switch to a different commit](http://stackoverflow.com/a/4114122/4183498)
+  ```
+  git checkout -b {branch name} {commit hash}
+  ```
+* [Delete branch both locally and remotely](http://stackoverflow.com/q/2003505/4183498)
+  ```
+  git branch -D {local branch}
+  git push {remote} --delete {branch name}
+  ```
+* [Reset local changes to match remote branch](http://stackoverflow.com/q/1628088/4183498)
+  ```
+  git fetch origin
+  git reset --hard origin/{branch name}
+  ```
+* Date ordered log for a given author
+  ```
+  git log --date-order --author="{author name}"
+  ```
+* [Point local branch to a remote branch](http://stackoverflow.com/q/1184518/4183498)
+  ```
+  git checkout {local branch}
+  git branch -u {remote}/{remote branch}
+  ```
+  
+  There are two options when pushing local branch to the remote's master branch
+  * [Specify branch mapping](http://stackoverflow.com/a/5423655/4183498)
+    ```
+    git push {remote} {local branch name}:master
+    ```
+  * [Change the default _git push_ behavior](http://stackoverflow.com/q/948354/4183498)
+    ```
+    git config push.default upstream
+    ```
+
 
 ## Python
 
@@ -38,7 +76,7 @@ Things which I want to have the same on all machines and I use often but cannot 
   ```bash
   python -m site
   ```
-
+ 
 ### Generators
 * https://rickardlindberg.me/writing/bitten-by-python-generators/
 
