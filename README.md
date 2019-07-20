@@ -15,6 +15,10 @@ Things which I want to have the same on all machines and I use often but cannot 
   
   
 ## Docker
+* [Remove dangling images](https://gist.github.com/anildigital/862675ec1b7bccabc311)
+  ```
+  docker rmi $(docker images -q -f dangling=true)
+  ```
 * https://medium.com/@tonistiigi/advanced-multi-stage-build-patterns-6f741b852fae
   * Multi stage build patterns
 * https://medium.com/better-programming/about-var-run-docker-sock-3bfd276e12fd
