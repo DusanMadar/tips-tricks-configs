@@ -16,6 +16,9 @@ Things which I want to have the same on all machines and I use often but cannot 
   
 ## Docker
 * https://medium.com/@tonistiigi/advanced-multi-stage-build-patterns-6f741b852fae
+  * Multi stage build patterns
+* https://medium.com/better-programming/about-var-run-docker-sock-3bfd276e12fd
+  * Intro to `/var/run/docker.sock`
 
 ## Git
 * [Show the git branch with colours in Bash prompt](https://askubuntu.com/q/730754/355551)
