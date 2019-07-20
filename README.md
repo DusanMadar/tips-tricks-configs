@@ -1,6 +1,7 @@
 # Tips-Tricks-Configs
 Things which I want to have the same on all machines and I use often but cannot remember or find interesting (worth noting).
 
+- [Docker](#docker)
 - [Git](#git)
 - [Python](#python)
   * [Async](#async)
@@ -13,6 +14,9 @@ Things which I want to have the same on all machines and I use often but cannot 
   * [SW Development](#sw-development)
   
   
+## Docker
+* https://medium.com/@tonistiigi/advanced-multi-stage-build-patterns-6f741b852fae
+
 ## Git
 * [Show the git branch with colours in Bash prompt](https://askubuntu.com/q/730754/355551)
 * [Temporarily switch to a different commit](http://stackoverflow.com/a/4114122/4183498)
