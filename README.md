@@ -25,6 +25,8 @@ Things which I want to have the same on all machines and I use often but cannot 
   * Intro to `/var/run/docker.sock`
 * https://nickjanetakis.com/blog/best-practices-when-it-comes-to-writing-docker-related-files
   * Best Practices When It Comes to Writing Docker Related Files
+* https://jtreminio.com/blog/traefik-on-docker-for-web-developers/
+  * Intro to [Traefik](https://traefik.io/) (+explanation)
 
 ## Git
 * [Show the git branch with colours in Bash prompt](https://askubuntu.com/q/730754/355551)
