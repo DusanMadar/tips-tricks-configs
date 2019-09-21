@@ -30,6 +30,7 @@ Things which I want to have the same on all machines and I use often but cannot 
 
 ## Git
 * [4 branching workflows for Git](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)
+  * [What is the difference between `git merge` and `git merge --no-ff`?](https://stackoverflow.com/q/9069061/4183498)
 * [Show the git branch with colours in Bash prompt](https://askubuntu.com/q/730754/355551)
 * [Temporarily switch to a different commit](http://stackoverflow.com/a/4114122/4183498)
   ```
