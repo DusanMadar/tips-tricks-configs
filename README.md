@@ -1,17 +1,19 @@
 # Tips-Tricks-Configs
 Things which I want to have the same on all machines and I use often but cannot remember or find interesting (worth noting).
 
-- [Docker](#docker)
-- [Git](#git)
-- [Python](#python)
+* [Docker](#docker)
+* [Git](#git)
+* [Python](#python)
   * [Async](#async)
   * [Debugging](#debugging)
   * [Django](#django)
   * [Environment](#environment)
   * [Generators](#generators)
   * [Testing](#testing)
-- [Resources](#resources)
+* [Resources](#resources)
   * [SW Development](#sw-development)
+* [Ubuntu](#ubuntu)
+  * [Fresh install](#fresh-install)
   
   
 ## Docker
@@ -128,3 +130,125 @@ Links to resources (tutorials, books, blog posts, repositories, ...).
   
 * https://github.com/karan/Projects
   * A list of practical projects that anyone can solve in any programming language
+
+
+## Ubuntu
+
+### Fresh install
+
+#### Interface
+* 
+  ```
+  sudo apt update
+  sudo apt upgrade
+  sudo apt install gnome-tweaks
+  sudo apt install gnome-shell-extensions
+  sudo apt install chrome-gnome-shell
+  sudo apt install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0 gir1.2-clutter-1.0
+  gnome-session-quit
+  ```
+
+* window buttons to left
+	 * gnome-tweaks -> windows -> bottom most "Placement" (under "Titlebar Buttons")
+
+* don't suspend on lid closed
+	 * gnome-tweaks -> power -> switch off
+
+* minimize on icon click
+	 * gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+  
+* add keyboard layout
+	 * settings -> Region & Language	
+  
+* change keyboard layut switch shortcut to alt + shift
+	 * gnome-tweaks -> keyboard and mouse -> Additional Layout Options -> Switching to another layout
+
+* install gnome shell integration browser extension (to firefox, preferably)
+	 * https://extensions.gnome.org/
+
+* move panel time to right
+	 * https://extensions.gnome.org/extension/2/move-clock/
+
+* system monitor shell extension
+	 * https://extensions.gnome.org/extension/120/system-monitor/
+
+* suspend button shell extension
+	 * https://extensions.gnome.org/extension/826/suspend-button/
+
+* center new window
+	 * `sudo apt install dconf-editor`
+	 * set center-new-windows" in /org/gnome/mutter/ to "true"
+  
+
+#### Common
+```
+sudo apt install curl
+sudo apt install git
+sudo apt install python3-pip
+```
+
+#### virtualenvwrapper
+Credits: https://medium.com/@gitudaniel/installing-virtualenvwrapper-for-python3-ad3dfea7c717\
+```
+pip3 install virtualenvwrapper
+```
+
+Add to `~/.bashrc`
+```
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
+source ~/.local/bin/virtualenvwrapper.sh
+```
+then run `source ~/.bashrc`
+
+#### Golang
+Download installer (not source!), e.g. `go1.11.1.linux-amd64.tar.gz` from https://golang.org/dl/
+```
+cd ~/Downloads/
+sudo tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+```
+
+Add to ~/.bashrc
+```
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/code/go
+export PATH=$PATH:/usr/local/go/bin:$(go env GOPATH)/bin
+```
+then run `source ~/.bashrc`
+
+##### Delve
+```
+go get -u github.com/derekparker/delve/cmd/dlv
+```
+
+#### Docker
+Credits: https://medium.com/devgorilla/how-to-install-docker-on-ubuntu-18-04-495216a16092
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable edge"
+apt-cache policy docker-ce
+sudo apt install -y docker-ce
+sudo usermod -aG docker ${USER}
+```
+
+##### Docker Compose
+Credits: https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04
+
+#### Media
+```
+sudo apt install vlc
+sudo apt install clementine
+```
+
+#### VirtualBox
+```
+sudo apt install virtualbox
+sudo apt install virtualbox-guest-additions-iso
+sudo apt install virtualbox-ext-pack
+```
+
+#### Laptop specific
+```
+sudo apt install tlp tlp-rdw
+```
