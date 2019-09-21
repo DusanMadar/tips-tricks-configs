@@ -209,7 +209,7 @@ cd ~/Downloads/
 sudo tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 ```
 
-Add to ~/.bashrc
+Add to `~/.bashrc`
 ```
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/code/go
