@@ -14,6 +14,7 @@ Things which I want to have the same on all machines and I use often but cannot 
   * [SW Development](#sw-development)
 * [Ubuntu](#ubuntu)
   * [Fresh install](#fresh-install)
+  * [Gnome shortcuts](#gnome-shortcuts)
   
   
 ## Docker
@@ -133,6 +134,17 @@ Links to resources (tutorials, books, blog posts, repositories, ...).
 
 
 ## Ubuntu
+
+### Gnome shortcuts
+https://help.gnome.org/users/gnome-help/stable/shell-keyboard-shortcuts.html
+
+| Action                                            | Shortcut                            |
+| :------------------------------------------------ |:----------------------------------- |
+| Switch between workspaces                         | Super + Page Up / Page Down         |
+| Move the current window to a different workspace  | Shift + Super + Page Up / Page Down |
+| Move the current window one monitor to the left   | Shift + Super + ←                   |
+| Move the current window one monitor to the right  | Shift + Super + →                   |
+
 
 ### Fresh install
 
