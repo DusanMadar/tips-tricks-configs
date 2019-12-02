@@ -197,13 +197,8 @@ https://help.gnome.org/users/gnome-help/stable/shell-keyboard-shortcuts.html
 sudo apt install curl
 sudo apt install git
 sudo apt install python3-pip
-```
-
-#### tmux
-```
 sudo apt install tmux
-sudo apt install xsel
-git clone https://github.com/tmux-plugins/tmux-yank ~/.local/tmux-yank
+sudo apt install xclip
 ```
 
 #### virtualenvwrapper
