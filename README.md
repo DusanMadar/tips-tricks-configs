@@ -199,6 +199,13 @@ sudo apt install git
 sudo apt install python3-pip
 ```
 
+#### tmux
+```
+sudo apt install tmux
+sudo apt install xsel
+git clone https://github.com/tmux-plugins/tmux-yank ~/.local/tmux-yank
+```
+
 #### virtualenvwrapper
 Credits: https://medium.com/@gitudaniel/installing-virtualenvwrapper-for-python3-ad3dfea7c717\
 ```
