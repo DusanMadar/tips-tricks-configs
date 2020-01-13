@@ -4,7 +4,7 @@
     "editor.renderWhitespace": "all",
     "explorer.openEditors.visible": 0,
     "editor.rulers": [
-        79
+        88
     ],
     "files.exclude": {
         "**/*.pyc": true,
@@ -23,21 +23,26 @@
     "python.formatting.blackPath": "black",
     "python.formatting.blackArgs": [
         "--line-length",
-        "79"
+        "88"
     ],
     "[python]": {
         "editor.formatOnSave": true,
         "editor.rulers": [
-            79,
             88
         ]
     },
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Atom One Dark",
     "workbench.tree.indent": 25,
     "workbench.tree.renderIndentGuides": "always",
     "python.workspaceSymbols.ctagsPath": "",
     "python.workspaceSymbols.tagFilePath": "",
     "search.location": "panel",
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "cSpell.userWords": [
+        "itertools",
+        "pylint",
+        "pytest"
+    ]
 }
