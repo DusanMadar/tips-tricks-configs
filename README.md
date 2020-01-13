@@ -153,9 +153,7 @@ https://help.gnome.org/users/gnome-help/stable/shell-keyboard-shortcuts.html
   ```
   sudo apt update
   sudo apt upgrade
-  sudo apt install gnome-tweaks
-  sudo apt install gnome-shell-extensions
-  sudo apt install chrome-gnome-shell
+  sudo apt install gnome-tweaks gnome-shell-extensions chrome-gnome-shell
   sudo apt install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0 gir1.2-clutter-1.0
   gnome-session-quit
   ```
@@ -194,11 +192,7 @@ https://help.gnome.org/users/gnome-help/stable/shell-keyboard-shortcuts.html
 
 #### Common
 ```
-sudo apt install curl
-sudo apt install git
-sudo apt install python3-pip
-sudo apt install tmux
-sudo apt install xclip
+sudo apt install curl git python3-pip tmux xclip meld
 ```
 
 #### virtualenvwrapper
@@ -251,8 +245,7 @@ Credits: https://www.digitalocean.com/community/tutorials/how-to-install-docker-
 
 #### Media
 ```
-sudo apt install vlc
-sudo apt install clementine
+sudo apt install vlc clementine
 ```
 
 #### VirtualBox
