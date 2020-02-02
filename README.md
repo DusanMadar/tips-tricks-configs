@@ -253,6 +253,7 @@ sudo apt install vlc clementine
 sudo apt install virtualbox
 sudo apt install virtualbox-guest-additions-iso
 sudo apt install virtualbox-ext-pack
+sudo adduser $USER vboxusers
 ```
 
 #### Laptop specific
