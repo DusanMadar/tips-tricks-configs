@@ -4,7 +4,7 @@
     "editor.renderWhitespace": "all",
     "explorer.openEditors.visible": 0,
     "editor.rulers": [
-        88
+        79
     ],
     "files.exclude": {
         "**/*.pyc": true,
@@ -23,7 +23,9 @@
     "python.formatting.blackPath": "black",
     "python.formatting.blackArgs": [
         "--line-length",
-        "88"
+        "88",
+        "--exclude",
+        "**/migrations/.*py"
     ],
     "[python]": {
         "editor.formatOnSave": true,
@@ -31,18 +33,21 @@
             88
         ]
     },
+    "html.format.enable": false,
     "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Atom One Light",
     "workbench.colorTheme": "Atom One Dark",
     "workbench.tree.indent": 25,
     "workbench.tree.renderIndentGuides": "always",
     "python.workspaceSymbols.ctagsPath": "",
     "python.workspaceSymbols.tagFilePath": "",
-    "search.location": "panel",
     "window.menuBarVisibility": "toggle",
     "explorer.confirmDelete": false,
     "cSpell.userWords": [
         "itertools",
         "pylint",
         "pytest"
-    ]
+    ],
+    "window.zoomLevel": 0,
+    "extensions.ignoreRecommendations": false,
 }
