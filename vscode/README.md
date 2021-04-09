@@ -28,6 +28,14 @@ https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 | Undo Cursor Position           | Ctrl + U         |
 
 
+#### Search
+
+| Action                         | Shortcut         |
+| :----------------------------- |:---------------- |
+| Go to next search result       | F4               |
+| Go to previous search result   | Shift + F4       |
+
+
 ### Activity bar
 
 | Action                         | Shortcut         |
