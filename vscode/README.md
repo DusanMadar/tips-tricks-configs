@@ -5,6 +5,9 @@
   * Python related settings
 * `keybindings.json` => `~/.config/Code/User/keybindings.json`
   * convert case line in Atom
+ 
+## Per directory specific settings
+Create `.vscode/settings.json` in the target directory. These settings override globals.
 
 
 ## Shortcuts
