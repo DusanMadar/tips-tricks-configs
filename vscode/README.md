@@ -7,7 +7,8 @@
   * convert case line in Atom
  
 ## Per directory specific settings
-Create `.vscode/settings.json` in the target directory. These settings override globals.
+Create `.vscode/settings.json` in the target directory. These settings override globals and are automatically picked up when starting the editor with `code .`.
+Add `.vscode/` to `.git/info/exclude` to exlude your local settings from versioning.
 
 
 ## Shortcuts
