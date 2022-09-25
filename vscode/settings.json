@@ -59,4 +59,5 @@
     },
     "window.zoomLevel": 1,
     "explorer.confirmDragAndDrop": false,
+    "search.useIgnoreFiles": false
 }
