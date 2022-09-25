@@ -68,7 +68,14 @@ https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 
 ## Themes
 
-`Atom One Dark`
+* Atom One Dark
+* Atom One Light
+
+## Extensions
+
+* Python
+* Code Spell Checker
+* Remote - Containers
 
 
 ## Other Resources
