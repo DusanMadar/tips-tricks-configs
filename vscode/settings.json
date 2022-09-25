@@ -23,29 +23,40 @@
     "python.formatting.blackPath": "black",
     "python.formatting.blackArgs": [
         "--line-length",
-        "88"
+        "88",
     ],
     "[python]": {
         "editor.formatOnSave": true,
         "editor.rulers": [
             88
-        ]
+        ],
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
     },
     "html.format.enable": false,
     "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Atom One Light",
-    "workbench.colorTheme": "Atom One Dark",
+    // "workbench.colorTheme": "Atom One Dark",
     "workbench.tree.indent": 25,
     "workbench.tree.renderIndentGuides": "always",
-    "python.workspaceSymbols.ctagsPath": "",
-    "python.workspaceSymbols.tagFilePath": "",
     "window.menuBarVisibility": "toggle",
     "explorer.confirmDelete": false,
     "cSpell.userWords": [
         "itertools",
+        "pydantic",
         "pylint",
-        "pytest"
+        "pytest",
     ],
-    "window.zoomLevel": 0,
     "extensions.ignoreRecommendations": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "editor.renderControlCharacters": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "window.zoomLevel": 1,
+    "explorer.confirmDragAndDrop": false,
 }
