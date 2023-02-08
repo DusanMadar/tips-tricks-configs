@@ -82,13 +82,18 @@ Things which I want to have the same on all machines and I use often but cannot 
   (pdb) !import code; code.interact(local=vars())
   ```
 ### Django
-* [Part V – Internationalization and Localization. Languages and Time zones](http://www.marinamele.com/taskbuster-django-tutorial/internationalization-localization-languages-time-zones)
-* [Django translation tutorial](http://joaoventura.net/blog/2016/django-translation/)
-* [Django site with 2 languages](https://stackoverflow.com/q/10280881/4183498)
-* [Getting started with translating a Django Application](https://blog.braham.biz/getting-started-with-translating-a-django-application-d85ec34e505)
-* [Solving Performance Problems in the Django ORM](https://medium.com/@hansonkd/performance-problems-in-the-django-orm-1f62b3d04785)
-* [Avoid Django’s GenericForeignKey](https://lukeplant.me.uk/blog/posts/avoid-django-genericforeignkey/)
-* [Django migrations without downtimes](https://pankrat.github.io/2015/django-migrations-without-downtimes/)
+* DB and ORM
+  * [Database access optimization](https://docs.djangoproject.com/en/dev/topics/db/optimization/)
+  * [Solving Performance Problems in the Django ORM](https://medium.com/@hansonkd/performance-problems-in-the-django-orm-1f62b3d04785)
+  * [Using signals is an antipattern](https://www.django-antipatterns.com/antipattern/signals.html)
+  * [Avoid Django’s GenericForeignKey](https://lukeplant.me.uk/blog/posts/avoid-django-genericforeignkey/)
+  * [Django migrations without downtimes](https://pankrat.github.io/2015/django-migrations-without-downtimes/)
+* Translations
+  * [Part V – Internationalization and Localization. Languages and Time zones](http://www.marinamele.com/taskbuster-django-tutorial/internationalization-localization-languages-time-zones)
+  * [Django translation tutorial](http://joaoventura.net/blog/2016/django-translation/)
+  * [Django site with 2 languages](https://stackoverflow.com/q/10280881/4183498)
+  * [Getting started with translating a Django Application](https://blog.braham.biz/getting-started-with-translating-a-django-application-d85ec34e505)
+
 
 ### Environment
 * [How do you set your pythonpath in an already-created virtualenv?](https://stackoverflow.com/q/4757178/4183498)
