@@ -15,6 +15,7 @@ Things which I want to have the same on all machines and I use often but cannot 
 * [Ubuntu](#ubuntu)
   * [Fresh install](#fresh-install)
   * [Gnome shortcuts](#gnome-shortcuts)
+* [PostgreSQL](#postgresql)
   
   
 ## Docker
@@ -262,3 +263,8 @@ sudo adduser $USER vboxusers
 ```
 sudo apt install tlp tlp-rdw
 ```
+
+
+## PostgreSQL
+* [PostgreSQL when it’s not your job.](https://thebuild.com/presentations/not-your-job-pgconf-us-2017.pdf)
+* [WITH HOLD CURSORS AND TRANSACTIONS IN POSTGRESQL](https://www.cybertec-postgresql.com/en/with-hold-cursors-and-transactions-in-postgresql/)
