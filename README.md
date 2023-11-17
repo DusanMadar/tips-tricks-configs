@@ -16,8 +16,9 @@ Things which I want to have the same on all machines and I use often but cannot 
   * [Fresh install](#fresh-install)
   * [Gnome shortcuts](#gnome-shortcuts)
 * [PostgreSQL](#postgresql)
-  
-  
+* [Rpi](#rpi)
+
+
 ## Docker
 * [Remove dangling images](https://gist.github.com/anildigital/862675ec1b7bccabc311)
   ```
@@ -59,7 +60,7 @@ Things which I want to have the same on all machines and I use often but cannot 
   git checkout {local branch}
   git branch -u {remote}/{remote branch}
   ```
-  
+
   There are two options when pushing local branch to the remote's master branch
   * [Specify branch mapping](http://stackoverflow.com/a/5423655/4183498)
     ```
@@ -104,7 +105,7 @@ Things which I want to have the same on all machines and I use often but cannot 
   ```bash
   python -m site
   ```
- 
+
 ### Generators
 * https://rickardlindberg.me/writing/bitten-by-python-generators/
 
@@ -136,7 +137,7 @@ Links to resources (tutorials, books, blog posts, repositories, ...).
 
 * https://github.com/jamiebuilds/the-super-tiny-compiler
   * Reading through the guided code will help you learn about how most compilers work from end to end
-  
+
 * https://github.com/karan/Projects
   * A list of practical projects that anyone can solve in any programming language
 
@@ -157,7 +158,7 @@ https://help.gnome.org/users/gnome-help/stable/shell-keyboard-shortcuts.html
 ### Fresh install
 
 #### Interface
-* 
+*
   ```
   sudo apt update
   sudo apt upgrade
@@ -174,10 +175,10 @@ https://help.gnome.org/users/gnome-help/stable/shell-keyboard-shortcuts.html
 
 * minimize on icon click
 	 * gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
-  
+
 * add keyboard layout
-	 * settings -> Region & Language	
-  
+	 * settings -> Region & Language
+
 * change keyboard layut switch shortcut to alt + shift
 	 * gnome-tweaks -> keyboard and mouse -> Additional Layout Options -> Switching to another layout
 
@@ -196,7 +197,7 @@ https://help.gnome.org/users/gnome-help/stable/shell-keyboard-shortcuts.html
 * center new window
 	 * `sudo apt install dconf-editor`
 	 * set center-new-windows" in /org/gnome/mutter/ to "true"
-  
+
 
 #### Common
 ```
@@ -273,3 +274,14 @@ sudo apt install tlp tlp-rdw
 ## PostgreSQL
 * [PostgreSQL when it’s not your job.](https://thebuild.com/presentations/not-your-job-pgconf-us-2017.pdf)
 * [WITH HOLD CURSORS AND TRANSACTIONS IN POSTGRESQL](https://www.cybertec-postgresql.com/en/with-hold-cursors-and-transactions-in-postgresql/)
+
+
+## Rpi
+
+```
+nmap -sL 192.168.1.0/24 | grep pi | grep -oP '(?<=\().*(?=\))'
+```
+* [System time problem on Raspberry Pi after power outage](https://raspberrypi.stackexchange.com/questions/74159/system-time-problem-on-raspberry-pi-after-power-outage)
+* [How accurate is Raspberry Pi's timekeeping?](https://raspberrypi.stackexchange.com/questions/1397/how-accurate-is-raspberry-pis-timekeeping)
+* [How do I set Raspbian to use the primary time server time.nist.gov?](https://raspberrypi.stackexchange.com/questions/68811/how-do-i-set-raspbian-to-use-the-primary-time-server-time-nist-gov/68812#68812)
+* [How to force NTPD to update date/time after boot?](https://raspberrypi.stackexchange.com/questions/8231/how-to-force-ntpd-to-update-date-time-after-boot/107344)
